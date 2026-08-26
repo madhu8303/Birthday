@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A little constellation of birthday wishes, memories, and joy.">
+  <meta name="theme-color" content="#17121f">
+  <title>Happy Birthday, Alex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar" aria-label="Primary navigation">
+      <a class="wordmark" href="#top" aria-label="Birthday home"><span class="wordmark-mark">B</span><span>birthday<br><small>with love</small></span></a>
+      <nav class="nav-links">
+        <a href="#memories">Memories</a>
+        <a href="#wishes">Wishes</a>
+        <a href="#celebrate">Celebrate</a>
+      </nav>
+      <button class="music-toggle" type="button" aria-label="Play birthday music" aria-pressed="false"><span class="music-icon" aria-hidden="true">&#9835;</span><span class="music-label">Play a song</span></button>
+      <audio id="birthday-audio" src="assets/music/birthday.mp3" preload="metadata"></audio>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A day worth making beautiful</p>
+          <h1 id="hero-title">Happy<br><em>Birthday</em><span class="title-dot">.</span></h1>
+          <p class="hero-name">Dear <strong>Alex</strong>, today the world feels a little brighter because you are in it.</p>
+          <a class="button button-gold" href="#celebrate">Open your celebration <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+          <span class="orbit-ring ring-one"></span><span class="orbit-ring ring-two"></span>
+          <span class="orbit-star star-one">&#10022;</span><span class="orbit-star star-two">&#10022;</span>
+          <div class="hero-birthday-badge"><span>29</span><small>august<br>2026</small></div>
+        </div>
+        <div class="hero-footer reveal"><span>Scroll to unwrap the day</span><span class="scroll-line"></span><span>01 / 06</span></div>
+      </section>
+
+      <section class="intro section-pad" aria-labelledby="intro-title">
+        <div class="section-kicker">01 / the birthday note</div>
+        <div class="intro-grid">
+          <h2 id="intro-title">For all the<br><em>light</em> you bring.</h2>
+          <div class="intro-note"><p>Some people make a room warmer simply by walking into it. You are that person. So today is a small, glittering reminder of how loved you are.</p><p class="signature">With all our love <span aria-hidden="true">&#9825;</span></p></div>
+        </div>
+        <div class="balloon-field" aria-hidden="true"><div class="balloon balloon-plum"></div><div class="balloon balloon-gold"></div><div class="balloon balloon-rose"></div><div class="balloon balloon-cream"></div></div>
+      </section>
+
+      <section class="celebrate section-pad" id="celebrate" aria-labelledby="celebrate-title">
+        <div class="section-kicker">02 / make a wish</div>
+        <div class="celebrate-heading"><h2 id="celebrate-title">A little <em>magic</em><br>for your day.</h2><p>Make a wish. We will handle the sparkle.</p></div>
+        <div class="celebrate-grid">
+          <div class="cake-stage"><div class="cake-glow"></div><div class="cake" role="img" aria-label="Birthday cake with three lit candles"><div class="candle candle-one"><span class="flame"></span></div><div class="candle candle-two"><span class="flame"></span></div><div class="candle candle-three"><span class="flame"></span></div><div class="cake-top"></div><div class="cake-middle"></div><div class="cake-bottom"></div><div class="cake-plate"></div></div><button class="button button-outline wish-button" type="button">Blow out the candles <span aria-hidden="true">&#10022;</span></button></div>
+          <div class="countdown-panel"><p class="mini-label">Counting down to your next chapter</p><div class="countdown" aria-live="polite"><div><strong id="days">00</strong><span>days</span></div><i>:</i><div><strong id="hours">00</strong><span>hours</span></div><i>:</i><div><strong id="minutes">00</strong><span>minutes</span></div><i>:</i><div><strong id="seconds">00</strong><span>seconds</span></div></div><p class="countdown-note" id="countdown-note">Until the next birthday sunrise</p><button class="text-button fireworks-button" type="button">Light the sky <span aria-hidden="true">&rarr;</span></button></div>
+        </div>
+      </section>
+
+      <section class="memories section-pad" id="memories" aria-labelledby="memories-title">
+        <div class="section-kicker">03 / little treasures</div><div class="section-heading"><h2 id="memories-title">The good stuff<br><em>stays with us.</em></h2><p>A few frames from a life well lived.</p></div>
+        <div class="gallery"><button class="memory-card memory-one" type="button" data-title="Sunlit afternoons" data-copy="The kind of day that feels like it was made just for laughing."><span class="memory-number">01</span><span class="memory-caption">Sunlit afternoons <small>the easy kind of joy</small></span></button><button class="memory-card memory-two" type="button" data-title="Places in between" data-copy="New roads, familiar company, and stories that keep getting better."><span class="memory-number">02</span><span class="memory-caption">Places in between <small>adventure is calling</small></span></button><button class="memory-card memory-three" type="button" data-title="Golden hour" data-copy="Keep collecting these glowing, ordinary miracles."><span class="memory-number">03</span><span class="memory-caption">Golden hour <small>pause here awhile</small></span></button><button class="memory-card memory-four" type="button" data-title="The people we love" data-copy="The best memories always have a little bit of everyone in them."><span class="memory-number">04</span><span class="memory-caption">The people we love <small>always in the frame</small></span></button></div>
+      </section>
+
+      <section class="timeline section-pad" aria-labelledby="timeline-title"><div class="section-kicker">04 / your story so far</div><div class="timeline-layout"><h2 id="timeline-title">A life in<br><em>beautiful</em><br>chapters.</h2><div class="timeline-list"><article class="timeline-item"><span class="timeline-year">2018</span><div><h3>The beginning of something bright</h3><p>A year of firsts, brave choices, and a spark that never went away.</p></div></article><article class="timeline-item"><span class="timeline-year">2022</span><div><h3>More sky, more stories</h3><p>You found new places and made them feel like home.</p></div></article><article class="timeline-item"><span class="timeline-year">Today</span><div><h3>The best chapter is still unwritten</h3><p>Here is to every beautiful surprise waiting just around the corner.</p></div></article></div></div></section>
+
+      <section class="wishes section-pad" id="wishes" aria-labelledby="wishes-title"><div class="section-kicker">05 / from the heart</div><div class="wishes-header"><h2 id="wishes-title">Notes for<br><em>your pocket.</em></h2><p>Keep these close on the days you need a little extra love.</p></div><div class="wish-wall"><article class="wish-card wish-card-feature"><span class="quote-mark">&#8220;</span><p>You make ordinary days feel like celebrations. Never forget how much joy you give back.</p><footer>— Your favorite people</footer></article><article class="wish-card"><span class="wish-icon">&#10022;</span><p>May this year surprise you in all the right ways.</p><footer>— With love, always</footer></article><article class="wish-card"><span class="wish-icon">&#9825;</span><p>More laughter. More late nights. More reasons to say yes.</p><footer>— A very big fan</footer></article></div></section>
+
+      <section class="gift-section section-pad" aria-labelledby="gift-title"><div class="gift-copy"><div class="section-kicker">06 / one last thing</div><h2 id="gift-title">There is a<br><em>surprise</em><br>inside.</h2><p>Some gifts are wrapped in paper. This one is wrapped in a moment.</p></div><div class="gift-area"><button class="gift-box" type="button" aria-expanded="false" aria-controls="gift-message"><span class="gift-lid"></span><span class="gift-body"></span><span class="gift-ribbon ribbon-vertical"></span><span class="gift-ribbon ribbon-horizontal"></span><span class="gift-bow bow-left"></span><span class="gift-bow bow-right"></span><span class="gift-knot"></span><span class="gift-sparkle sparkle-a">&#10022;</span><span class="gift-sparkle sparkle-b">&#10022;</span></button><div class="gift-message" id="gift-message" hidden><strong>Your year starts now.</strong><span>Go make it wonderfully yours.</span></div></div></section>
+    </main>
+
+    <footer class="footer"><div class="footer-mark">B<span>&#10022;</span></div><p>Made with love for Alex<br><small>Keep shining, keep celebrating.</small></p><a href="#top" class="back-top" aria-label="Back to top">&#8593;</a></footer>
+  </div>
+  <div class="confetti-layer" aria-hidden="true"></div><canvas id="fireworks-canvas" aria-hidden="true"></canvas>
+  <div class="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" hidden><button class="lightbox-close" type="button" aria-label="Close memory">&#10005;</button><div class="lightbox-art"></div><div class="lightbox-copy"><p class="mini-label">A memory worth keeping</p><h2 id="lightbox-title">Memory</h2><p id="lightbox-text"></p></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
